@@ -1,0 +1,208 @@
+<script src="javascript.js"></script>
+
+corps{
+}
+
+/*a{
+	height:20px;
+	display:inline-block;
+	width:150px;
+	background-color:red;
+	border-radius:10px;
+	text-decoration:none;
+	color:white;
+	padding:5px;
+	em { text-decoration: none; }
+	p  text-decoration: underline; } 
+		background-color: #a99f4c;
+	margin-right: 0%;
+	margin-left: 0%;
+	font-size: larger;
+	padding:50px;
+
+}
+h3{ 
+	text-indent:3000px;
+}*/
+
+
+/*
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}*/
+
+body {
+    background: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+	color: white;
+    background: url("images/fond d'écran.jpg");
+    background-size: cover; /* ca remplit la page*/
+    position: relative; /*Un élément positionné de façon relative est un élément dont la propriété de position calculée est relative . Dans ce cas, les propriétés top ou bottom indiquent le décalage vertical à appliquer et left ou right indiquent le décalage horizontal*/
+ 	overflow-x: hidden;
+	font-size: larger;
+	margin: 0 auto;
+    background-color: #FF9500;
+    padding: 0 20px 20px 20px;	
+    border: 10px solid black;
+}
+
+.container-first {
+    top: 10%;
+	margin: 0 auto;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 110px;
+    color: #f1f1f1;
+    font-family: Abril fatface, sans-serif;
+	text-align: center;
+}
+
+h1 span {
+    position: relative;
+}
+fieldset {
+	background-color:#CCC;
+	max-width:500px;
+	padding:16px;	
+}
+legend
+{
+ background-color: gray;
+  color: white;
+  padding: 5px 10px;
+}
+.container-btns {
+    position: relative;
+    top: 50px;
+	margin-left: 180px;
+}
+.btn-first {
+    border: 2px solid #f1f1f1;
+    outline: none;
+    background: transparent;
+    font-size: 20px;
+    padding: 10px;
+    width: 180px;
+    color: #f1f1f1;
+    cursor: pointer; /* forme */
+}
+.btn-first:nth-child(-n+5){ /* sélectionne les 5 premiers de la liste */
+    margin-right: 30px;
+	height : 100px;
+}
+.btn-first:hover {
+    transition: all 0.3s ease-in-out;
+    background: #f1f1f1;
+    color: #333;
+}
+.container-second {
+    position: relative;
+    top: 20%;
+	position : center;
+	margin: 0 auto;
+}
+.container-third{
+    position: relative;
+	top: 2%;
+ 	margin: 0 auto;
+}
+.container-btns-quizz {
+    position: relative;
+    top: 50px;
+
+}
+.btn-second {
+    text-align: center;
+	border: 2px solid #f1f1f1;
+    outline: none;
+    background: transparent;
+    font-size: 20px;
+    padding: 10px;
+    width: 180px;
+    color: #f1f1f1;
+    cursor: pointer; /* forme */
+}
+.btn-second:hover {
+    transition: all 0.3s ease-in-out;
+    background: #f1f1f1;
+    color: #333;
+}
+.btn-third {
+    text-align: center;
+	border: 2px solid #f1f1f1;
+    outline: none;
+    background: transparent;
+    font-size: 20px;
+    padding: 10px;
+    width: 180px;
+    color: #f1f1f1;
+    cursor: pointer;   
+}
+.btn-third:hover {
+    transition: all 0.3s ease-in-out;
+    background: #f1f1f1;
+    color: #333;
+}
+.lignes {
+    position: absolute;
+    top: 6%;
+    left: 5%;
+}
+.l1 {
+    width: 250px;
+    height: 3px;
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+.l2 {
+    width: 140px;
+    height: 3px;
+    background: #f1f1f1;
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+}
+
+.logo {
+    position: absolute;
+    right: 2.9%;
+    top: 4%;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+.medias {
+    list-style-type: none;
+    position: absolute;
+    right: 3.3%;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bulle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    background: #f1f1f1;
+    cursor: pointer;
+    position: relative;
+}
+
+.logo-medias {
+    width: 40px;
+    height: 40px;
+}
+
