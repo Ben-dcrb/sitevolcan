@@ -1,11 +1,3 @@
-//alert("Bienvenue sur le meilleur site de volcan créé par Benjamin DECOURBE");
-//alert("Vous trouverez un petit quiz à la fin pour tester vos nouvelles connaissances")
-//alert("Grosse dédicace à mon prof de NSI qui m'as appris tellement de choses intéressantes !");
-//var nom = prompt ("Quel est votre nom, cher(e) ami(e) ?");
-//var couleur = prompt ("Quel est ta couleur préférée ?(en anglais stp)")
-//a.style
-//alert("Bienvenue sur mon site " + nom);
-
 const titreSpans = document.querySelectorAll('h1 span');
 const btns = document.querySelectorAll('.btn-first');
 const btnsquizz = document.querySelector('.btn-second');
@@ -21,7 +13,7 @@ window.addEventListener('load', () => {
 })
 
 btnsquizz.addEventListener("mouseover", function() {
- 	this.textContent = "Vous êtes sur de vous ?";
+ 	this.textContent = "Vous êtes sûrs de vous ?";
 })
 btnsquizz.addEventListener("mouseout", function() {
  	this.textContent = "Tentez notre Quizz";
